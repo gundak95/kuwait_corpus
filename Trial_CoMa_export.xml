@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Corpus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="cuwait_corpus" Id="ID8E2454D6-D00B-6200-957B-601B3FAA4479" xsi:noNamespaceSchemaLocation="http://www.exmaralda.org/xml/comacorpus.xsd" uniqueSpeakerDistinction="//speaker/abbreviation">
+  <DBNode />
+  <CorpusData>
+    <Communication Id="ID18E65462-22E9-0926-7025-ED86C4679B4A" Name="Interview with HaDa">
+      <Setting>
+        <Description />
+        <Person>SIDCC0EC2C6-0BC3-9F88-EB16-E667D833AB18</Person>
+        <Person>IDC8029441-0E58-3320-CD30-E5779AA561A8</Person>
+      </Setting>
+      <Description />
+      <Location>
+        <City>Kuwait City</City>
+        <Country>Kuwait</Country>
+        <Description />
+      </Location>
+      <Recording Id="RIDC92FF3EC-8D12-EA61-9CA3-D85FA684068C">
+        <Name>ZOOM0027</Name>
+        <Media Id="MID69B18FA3-CE43-87FA-D83B-09740579ACFB">
+          <Description>
+            <Key Name="Type">Digital</Key>
+          </Description>
+          <NSLink>file:/C:/Users/gundak95/Dropbox/EXMARaLDA/Zoom/Kuwait/ZOOM0027.WAV</NSLink>
+          <Filename>ZOOM0027.WAV</Filename>
+        </Media>
+        <Description />
+      </Recording>
+      <Transcription Id="ID67C8D1C5-1223-2BA1-FDED-6CB0893EBBA4">
+        <Name>Interview with HaDa</Name>
+        <Filename>Pseudo</Filename>
+        <NSLink>file:/C:/Users/gundak95/Dropbox/EXMARaLDA/HayaDasan.exb</NSLink>
+        <Description>
+          <Key Name="segmented">false</Key>
+        </Description>
+        <Availability>
+          <Available>false</Available>
+          <ObtainingInformation />
+        </Availability>
+      </Transcription>
+    </Communication>
+    <Communication Id="IDE3DC03DC-4A04-B32C-4E74-3B1A0113973A" Name="Interview with Mudhi">
+      <Description />
+      <Setting>
+        <Description />
+        <Person>ID6DDA3729-50CE-6CB7-423C-7A007833CD88</Person>
+      </Setting>
+      <Location>
+        <City>Kuwait City</City>
+        <Country>Kuwait</Country>
+        <Description />
+      </Location>
+      <Language>
+        <LanguageCode>ara</LanguageCode>
+        <Description />
+      </Language>
+    </Communication>
+    <Speaker Id="IDC8029441-0E58-3320-CD30-E5779AA561A8">
+      <Sigle>SPK01A</Sigle>
+      <Pseudo>HaDa</Pseudo>
+      <KnownHuman>true</KnownHuman>
+      <Sex>female</Sex>
+      <Description />
+      <Location>
+        <City>Kuwait City</City>
+        <Country>Kuwait</Country>
+        <Description />
+      </Location>
+      <Language>
+        <LanguageCode>ara</LanguageCode>
+        <Description />
+      </Language>
+    </Speaker>
+    <Speaker Id="SIDCC0EC2C6-0BC3-9F88-EB16-E667D833AB18">
+      <Sigle>SPK01B</Sigle>
+      <Pseudo>MuDa</Pseudo>
+      <KnownHuman>true</KnownHuman>
+      <Sex>male</Sex>
+      <Description />
+      <Location>
+        <City>Kuwait City</City>
+        <Country>Kuwait</Country>
+        <Description />
+      </Location>
+      <Language>
+        <LanguageCode>ara</LanguageCode>
+        <Description />
+      </Language>
+    </Speaker>
+    <Speaker Id="ID6DDA3729-50CE-6CB7-423C-7A007833CD88">
+      <Sigle>SPK02A</Sigle>
+      <Pseudo>Mudhi</Pseudo>
+      <KnownHuman>true</KnownHuman>
+      <Sex>male</Sex>
+      <Description />
+    </Speaker>
+  </CorpusData>
+  <Description />
+</Corpus>
+

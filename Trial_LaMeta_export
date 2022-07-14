@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<METATRANSCRIPT xmlns="http://www.mpi.nl/IMDI/Schema/IMDI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mpi.nl/IMDI/Schema/IMDI_3.0.xsd" Type="SESSION" Version="0" Date="2022-07-08" Originator="lameta 2.0.1-alpha" FormatId="IMDI 3.0" ArchiveHandle="">
+  <Session>
+    <Name>Abd_1</Name>
+    <Title>Qasida by Msaed al-Rashidi</Title>
+    <Date>2022-03-08</Date>
+    <Description/>
+    <MDGroup>
+      <Location>
+        <Continent Link="http://www.mpi.nl/IMDI/Schema/Continents.xml" Type="ClosedVocabulary">Asia</Continent>
+        <Country Link="http://www.mpi.nl/IMDI/Schema/Countries.xml" Type="OpenVocabulary">Saudi Arabia</Country>
+        <Region>NW Saudi Arabia</Region>
+        <Address>Buraida</Address>
+      </Location>
+      <Project>
+        <Name>The dialect(s) of the Rashayda bedouins</Name>
+        <Title>WIBARAB</Title>
+        <Id/>
+        <Contact>
+          <Name>Stephan Prochazka</Name>
+        </Contact>
+        <Description>Recordings made on my first fieldwork campaign in Saudi Arabia with a member of the Bani Khalid in Qassim, a Shammari family in Ha'il, and the first Rashayda informants in Ha'il, al-Hayit, and ath-Thimad.</Description>
+      </Project>
+      <Keys/>
+      <Content>
+        <Genre Link="http://www.mpi.nl/IMDI/Schema/Content-Genre.xml" Type="OpenVocabulary">Art</Genre>
+        <SubGenre Link="http://www.mpi.nl/IMDI/Schema/Content-SubGenre.xml" Type="OpenVocabulary">Poetry - Read</SubGenre>
+        <Task Link="http://www.mpi.nl/IMDI/Schema/Content-Task.xml" Type="OpenVocabulary"/>
+        <Modalities Link="http://www.mpi.nl/IMDI/Schema/Content-Modalities.xml" Type="OpenVocabulary"/>
+        <Subject Link="http://www.mpi.nl/IMDI/Schema/Content-Subject.xml" Type="OpenVocabularyList"/>
+        <CommunicationContext>
+          <Interactivity Link="http://www.mpi.nl/IMDI/Schema/Content-Interactivity.xml" Type="ClosedVocabulary">Unspecified</Interactivity>
+          <PlanningType Link="http://www.mpi.nl/IMDI/Schema/Content-PlanningType.xml" Type="ClosedVocabulary">Unspecified</PlanningType>
+          <Involvement Link="http://www.mpi.nl/IMDI/Schema/Content-Involvement.xml" Type="ClosedVocabulary">Unspecified</Involvement>
+          <SocialContext Link="http://www.mpi.nl/IMDI/Schema/Content-SocialContext.xml" Type="ClosedVocabulary">Unspecified</SocialContext>
+          <EventStructure Link="http://www.mpi.nl/IMDI/Schema/Content-EventStructure.xml" Type="ClosedVocabulary">Unspecified</EventStructure>
+          <Channel Link="http://www.mpi.nl/IMDI/Schema/Content-Channel.xml" Type="ClosedVocabulary">Unspecified</Channel>
+        </CommunicationContext>
+        <Languages>
+          <Language>
+            <Id>ISO639-3:ARA</Id>
+            <Name Link="http://www.mpi.nl/IMDI/Schema/MPI-Languages.xml" Type="OpenVocabulary">ARA</Name>
+            <Description>Subject Language</Description>
+          </Language>
+          <Language>
+            <Id>ISO639-3:ARA</Id>
+            <Name Link="http://www.mpi.nl/IMDI/Schema/MPI-Languages.xml" Type="OpenVocabulary">ARA</Name>
+            <Description>Working Language</Description>
+          </Language>
+        </Languages>
+        <Keys>
+          <Key Name="Status">Incoming</Key>
+        </Keys>
+      </Content>
+      <Actors>
+        <Actor>
+          <Role>participant</Role>
+          <Name>Dr. ʕAbdallah b. Saʕd al-ʕUwaymri ar-Rašīdi</Name>
+          <FullName>Dr. ʕAbdallah b. Saʕd al-ʕUwaymri ar-Rašīdi</FullName>
+          <Code>Abd</Code>
+          <FamilySocialRole/>
+          <Languages>
+            <Language>
+              <Id>ISO639-3:ara</Id>
+              <Name Link="http://www.mpi.nl/IMDI/Schema/MPI-Languages.xml">Arabic</Name>
+              <PrimaryLanguage Type="ClosedVocabulary" Link="http://www.mpi.nl/IMDI/Schema/Boolean.xml">false</PrimaryLanguage>
+            </Language>
+            <Language>
+              <Id>ISO639-3:rsh</Id>
+              <Name Link="http://www.mpi.nl/IMDI/Schema/MPI-Languages.xml">Arabic recorded on first fieldwork campaign (KSA)</Name>
+              <PrimaryLanguage Type="ClosedVocabulary" Link="http://www.mpi.nl/IMDI/Schema/Boolean.xml">false</PrimaryLanguage>
+            </Language>
+          </Languages>
+          <EthnicGroup>Rashaida</EthnicGroup>
+          <Age>Unspecified</Age>
+          <!-- Could not compute age -->
+          <BirthDate>Unspecified</BirthDate>
+          <Sex Link="http://www.mpi.nl/IMDI/Schema/Actor-Sex.xml" Type="ClosedVocabulary">Male</Sex>
+          <Education>University, Doctorate</Education>
+          <Anonymized>false</Anonymized>
+          <Keys>
+            <Key Name="Nickname">Abu Saʕd</Key>
+            <Key Name="Primary Occupation">Head of Rabtat Abs</Key>
+            <Key Name="Description">The chief of the worldwide Abs League, has connected me to many people.</Key>
+            <Key Name="Has Consent">Consent</Key>
+            <Key Name="contribution-comments"/>
+          </Keys>
+          <Description>The chief of the worldwide Abs League, has connected me to many people.</Description>
+        </Actor>
+      </Actors>
+    </MDGroup>
+    <Resources/>
+  </Session>
+</METATRANSCRIPT>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../082_scripts_xsl/tei_2_html__simple_text.xsl"?>
+<?xslt inPathSegment="\102_derived_tei\" outPathSegment="\106_html\"?>
+<?processor name="msxml" removePreserveFromXML="true" removePreserveFromXSLT="false"?>
+<?snippets fn="snippets_001.xml" path="{appPath}\conf\"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+         <head>This is a head</head>
+         <p>Some text here.</p>
+      </body>
+   </text>
+</TEI>
