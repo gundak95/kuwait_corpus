@@ -1,4 +1,4 @@
-# cuwait_corpus
+# kuwait_corpus
 First tryouts of EXMARaLDA annotated Corpus, TEI files.
 
 This is the first transcribed audio file. Recordings were made in spring 2022 in Kuwait city with a number of speakers.
