@@ -53,9 +53,9 @@
 				</person>
 			</particDesc>
 			<settingDesc>
-				<place>Dasma Quarter in Kuwait City</place>
+				<place><!--Fill me in--></place>
 				<setting>
-					<activity>Interview</activity>
+					<activity><!--Fill me in--></activity>
 				</setting>
 			</settingDesc>
 		</profileDesc>
@@ -73,7 +73,6 @@
 		</encodingDesc>
 		<revisionDesc>
 			<change when="2022-07-12T14:22:40.333+02:00">Created by XSL transformation from an EXMARaLDA basic transcription</change>
-			<change when="2022-07-18">Chunking and Tokenisation in TEI Enricher</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="en">
