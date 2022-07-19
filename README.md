@@ -10,3 +10,4 @@ LaMeta lets me export a general .imdi file for the whole corpus, and files for p
 
 I tried out a few things to see how to change the file structure and also import the XSLT from the TEI Enricher environment.
 
+ghjk
