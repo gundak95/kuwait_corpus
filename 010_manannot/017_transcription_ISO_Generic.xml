@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:exmaralda="http://www.exmaralda.org" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title />
+         </titleStmt>
+         <publicationStmt>
+            <authority />
+            <availability>
+               <licence target="someurl" />
+               <p />
+            </availability>
+            <distributor />
+            <address>
+               <addrLine />
+            </address>
+         </publicationStmt>
+         <sourceDesc>
+            <recordingStmt>
+               <recording type="video">
+                  <media mimeType="audio/xxx" url="file:/Y:/WIBARAB/Gunda/Zoom/Kuwait/ZOOM0015.WAV" />
+                  <broadcast>
+                     <ab><!--Fill me in--></ab>
+                  </broadcast>
+                  <equipment>
+                     <ab><!--Fill me in--></ab>
+                     <ab><!--Fill me in--></ab>
+                  </equipment>
+               </recording>
+            </recordingStmt>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <person xml:id="SPK0" n="X" sex="2">
+               <persName>
+                  <forename>?</forename>
+                  <abbr>X</abbr>
+               </persName>
+            </person>
+            <person xml:id="SPK1" n="SPK1" sex="1">
+               <persName>
+                  <forename>?</forename>
+                  <abbr>SPK1</abbr>
+               </persName>
+            </person>
+         </particDesc>
+         <settingDesc>
+            <place><!--Fill me in--></place>
+            <setting>
+               <activity><!--Fill me in--></activity>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application ident="EXMARaLDA" version="1.5.3">
+               <label>EXMARaLDA Partitur-Editor</label>
+               <desc>Transcription Tool providing a TEI Export</desc>
+            </application>
+         </appInfo>
+         <transcriptionDesc ident="HIAT" version="2004">
+            <desc><!--Fill me in--></desc>
+            <label><!--Fill me in--></label>
+         </transcriptionDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2022-07-19T08:22:12.085+02:00">Created by XSL transformation from an EXMARaLDA basic transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <timeline unit="s">
+         <when absolute="00:00:00.0" xml:id="T0" />
+         <when xml:id="T2" interval="2.0" since="T0" />
+         <when xml:id="T4" interval="3.733279869779787" since="T0" />
+         <when xml:id="T5" interval="5.739917799786423" since="T0" />
+         <when xml:id="T6" interval="8.139940712737943" since="T0" />
+         <when xml:id="T3" interval="10.139940712737943" since="T0" />
+         <when xml:id="T7" interval="12.139940712737943" since="T0" />
+         <when xml:id="T8" interval="14.139940712737943" since="T0" />
+         <when xml:id="T9" interval="16.139940712737943" since="T0" />
+         <when xml:id="T10" interval="18.139940712737943" since="T0" />
+         <when xml:id="T11" interval="22.92633834316551" since="T0" />
+         <when xml:id="T12" interval="24.92633834316551" since="T0" />
+         <when xml:id="T13" interval="27.426273900489363" since="T0" />
+         <when xml:id="T14" interval="28.279595013581886" since="T0" />
+         <when xml:id="T15" interval="30.572895505018042" since="T0" />
+         <when xml:id="T16" interval="32.93286170841454" since="T0" />
+         <when xml:id="T17" interval="34.35284137317007" since="T0" />
+         <when xml:id="T18" interval="36.55280986786173" since="T0" />
+         <when xml:id="T19" interval="38.55280986786173" since="T0" />
+         <when xml:id="T20" interval="41.232742847478534" since="T0" />
+         <when xml:id="T21" interval="42.032731391002784" since="T0" />
+         <when xml:id="T22" interval="43.93273347832831" since="T0" />
+         <when xml:id="T23" interval="44.7726921525733" since="T0" />
+         <when xml:id="T24" interval="46.7726921525733" since="T0" />
+         <when xml:id="T25" interval="48.27930860168789" since="T0" />
+         <when xml:id="T26" interval="50.27930860168789" since="T0" />
+         <when xml:id="T27" interval="52.27930860168789" since="T0" />
+         <when xml:id="T28" interval="54.025977606874974" since="T0" />
+         <when xml:id="T29" interval="56.31252689291046" since="T0" />
+         <when xml:id="T30" interval="58.50582881640609" since="T0" />
+         <when xml:id="T31" interval="60.73915620837166" since="T0" />
+         <when xml:id="T32" interval="62.85248531880859" since="T0" />
+         <when xml:id="T33" interval="65.60581177438834" since="T0" />
+         <when xml:id="T34" interval="68.5524622843297" since="T0" />
+         <when xml:id="T35" interval="71.38578108393847" since="T0" />
+         <when xml:id="T36" interval="73.8391053253732" since="T0" />
+         <when xml:id="T37" interval="77.69240951797535" since="T0" />
+         <when xml:id="T38" interval="82.87902794978457" since="T0" />
+         <when xml:id="T39" interval="85.23235362327877" since="T0" />
+         <when xml:id="T40" interval="86.4723619070351" since="T0" />
+         <when xml:id="T41" interval="87.13904506793236" since="T0" />
+         <when xml:id="T42" interval="89.60570245175916" since="T0" />
+         <when xml:id="T43" interval="91.60570245175916" since="T0" />
+         <when xml:id="T44" interval="93.60570245175916" since="T0" />
+         <when xml:id="T45" interval="95.60570245175916" since="T0" />
+         <when xml:id="T46" interval="97.60570245175916" since="T0" />
+         <when xml:id="T47" interval="103.89897432317447" since="T0" />
+         <when xml:id="T48" interval="105.69230801620171" since="T0" />
+         <when xml:id="T49" interval="109.57895157510748" since="T0" />
+         <when xml:id="T50" interval="111.57895157510748" since="T0" />
+         <when xml:id="T51" interval="120.23885100015544" since="T0" />
+         <when xml:id="T52" interval="122.23885100015544" since="T0" />
+         <when xml:id="T53" interval="125.64549232272756" since="T0" />
+         <when xml:id="T54" interval="127.64549232272756" since="T0" />
+         <when xml:id="T55" interval="129.75881883326883" since="T0" />
+         <when xml:id="T56" interval="133.19214206116763" since="T0" />
+         <when xml:id="T57" interval="135.35880374117286" since="T0" />
+         <when xml:id="T58" interval="138.43878567503492" since="T0" />
+         <when xml:id="T59" interval="141.67876531760183" since="T0" />
+         <when xml:id="T60" interval="143.58543072096165" since="T0" />
+         <when xml:id="T61" interval="145.23876641887216" since="T0" />
+         <when xml:id="T62" interval="147.5454260939941" since="T0" />
+         <when xml:id="T63" interval="149.5454260939941" since="T0" />
+         <when xml:id="T64" interval="151.5454260939941" since="T0" />
+         <when xml:id="T65" interval="153.5454260939941" since="T0" />
+         <when xml:id="T66" interval="155.5454260939941" since="T0" />
+         <when xml:id="T67" interval="157.8387552477882" since="T0" />
+         <when xml:id="T68" interval="161.7120591539785" since="T0" />
+         <when xml:id="T69" interval="162.7054043034815" since="T0" />
+         <when xml:id="T70" interval="165.4787239623259" since="T0" />
+         <when xml:id="T71" interval="181.7640636599034" since="T0" />
+         <when xml:id="T72" interval="184.00405762306497" since="T0" />
+         <when xml:id="T73" interval="187.31736954878826" since="T0" />
+         <when xml:id="T74" interval="190.54401604896313" since="T0" />
+         <when xml:id="T75" interval="193.43066741814013" since="T0" />
+         <when xml:id="T76" interval="196.59064820635464" since="T0" />
+         <when xml:id="T77" interval="198.63048878587276" since="T0" />
+         <when xml:id="T78" interval="201.45047444308946" since="T0" />
+         <when xml:id="T79" interval="204.31045952748235" since="T0" />
+         <when xml:id="T80" interval="208.61042399021886" since="T0" />
+         <when xml:id="T81" interval="210.61042399021886" since="T0" />
+         <when xml:id="T82" interval="221.23016514043255" since="T0" />
+         <when xml:id="T83" interval="223.23016514043255" since="T0" />
+         <when xml:id="T84" interval="226.2834781896148" since="T0" />
+         <when xml:id="T86" interval="229.8634529631795" since="T0" />
+         <when xml:id="T85" interval="232.05675488667512" since="T0" />
+         <when xml:id="T87" interval="234.09675171395565" since="T0" />
+         <when xml:id="T1" interval="321.502" since="T0" />
+      </timeline>
+      <body>
+         <annotationBlock xml:id="ab_d1e252" who="SPK0" start="T0" end="T4">
+            <u xml:id="u_d1e252">ēywah, tfaḏ̣ḏ̣al <anchor synch="T2" />[paper on desk]</u>
+         </annotationBlock>
+         <annotationBlock xml:id="ab_d1e332" who="SPK1" start="T4" end="T3">
+            <u xml:id="u_d1e332">hāḏī <anchor synch="T5" />mara aw... mara, ē <anchor synch="T6" />axtār hente menya </u>
+         </annotationBlock>
+         <annotationBlock xml:id="ab_d1e258" who="SPK0" start="T3" end="T9">
+            <u xml:id="u_d1e258">[paper on desk] <anchor synch="T7" />[clicking sound] <anchor synch="T8" />[background noise] </u>
+         </annotationBlock>
+         <annotationBlock xml:id="ab_d1e341" who="SPK1" start="T9" end="T10">
+            <u xml:id="u_d1e341">[unintelligible] </u>
+         </annotationBlock>
+         <annotationBlock xml:id="ab_d1e267" who="SPK0" start="T10" end="T11">
+            <u xml:id="u_d1e267">[silence] </u>
+         </annotationBlock>
+         <annotationBlock xml:id="ab_d1e344" who="SPK1" start="T11" end="T12">
+            <u xml:id="u_d1e344">hena arbuṭ il-baʕḏ̣ willa..? </u>
+         </annotationBlock>
+         <annotationBlock xml:id="ab_d1e271" who="SPK0" start="T12" end="T13">
+            <u xml:id="u_d1e271">ayya šēy, ayya šēy yuxṭur ʕa-bālak </u>
+         </annotationBlock>
+         <annotationBlock xml:id="ab_d1e347" who="SPK1" start="T13" end="T39">
+            <u xml:id="u_d1e347">bass haḏōl <anchor synch="T14" />la la, ana ʕārif<anchor synch="T15" />äh, hāḏi l-umm <anchor synch="T16" />w-hāḏi l-walad, yaʕni, <anchor synch="T17" />yaʕni aw <anchor synch="T18" />haḏa l-walad gaʕd yadris<anchor synch="T19" />äh, yimkin baʕd-ha ṭalaʕ yaʕni <anchor synch="T20" />ʕa-šān yalʕab <anchor synch="T21" />w-il-umm kānat yaʕni ǧabrit, äh, yaʕni <anchor synch="T22" />gālat-l-ah adris <anchor synch="T23" />yimkin ṭalaʕ yalʕab aw šāy <anchor synch="T24" />fa-lamma <anchor synch="T25" />šāf umm-ah xašš il-...<anchor synch="T26" />xašš il-...<anchor synch="T27" />il-kāyn-ah fī-h taḥt iṭ-ṭāwla w- <anchor synch="T28" />mū taḥt iṭ-ṭāwla, ahwán taḥt il-farš <anchor synch="T29" />aw taḥt iz-zūliyya<anchor synch="T30" />xašš-ha taḥt il-...zulya <anchor synch="T31" />kān xāyif <anchor synch="T32" />w-ǧā fī ʕala rukbit-ha<anchor synch="T33" />ē, nāzi ʕa-rukbit-eh <anchor synch="T34" />w-... <anchor synch="T35" />w-il-umm yaʕni lābsa äh, <anchor synch="T36" />lābsa yaʕni <anchor synch="T37" />wišāḥ. <anchor synch="T38" />hāḏa huw.</u>
+         </annotationBlock>
+         <annotationBlock xml:id="ab_d1e274" who="SPK0" start="T14" end="T15">
+            <u xml:id="u_d1e274">mu šarṭ ykūn kṯīr ḏakiy</u>
+         </annotationBlock>
+         <annotationBlock xml:id="ab_d1e277" who="SPK0" start="T39" end="T40">
+            <u xml:id="u_d1e277">yaʕṭīk il-ʕāfye. </u>
+         </annotationBlock>
+         <annotationBlock xml:id="ab_d1e430" who="SPK1" start="T40" end="T43">
+            <u xml:id="u_d1e430">w-aḷḷah yʕafīč, <anchor synch="T41" />tannōra w-, w-blōze <anchor synch="T42" />aw inn-ah </u>
+         </annotationBlock>
+         <annotationBlock xml:id="ab_d1e280" who="SPK0" start="T43" end="T51">
+            <u xml:id="u_d1e280">mhm <anchor synch="T44" />[noise] <anchor synch="T45" />[clanking] <anchor synch="T46" />[noise] <anchor synch="T47" />[more noise] <anchor synch="T48" />[paper on desk] <anchor synch="T49" />[rustling] <anchor synch="T50" />[indistinct noise] </u>
+         </annotationBlock>
+         <annotationBlock xml:id="ab_d1e439" who="SPK1" start="T51" end="T67">
+            <u xml:id="u_d1e439">ḥilu, äh, <anchor synch="T52" />hāḏi bint yimkin yaʕni <anchor synch="T53" />taṭlaʕ aw šāy <anchor synch="T54" />w-uxū-ha, <anchor synch="T55" />xwān, gālit-l-ah yimkin maṭalan umm-ah yigiṭṭ ál-zibāle barra <anchor synch="T56" />al-... nifāyāt<anchor synch="T57" />fa mumkin yaʕni inn-ah <anchor synch="T58" />zaʕil inn-ah lēš itgūl-l-ah mā tgūl yaʕni maṯalan l-aḥad ṯāni <anchor synch="T59" />fa-yaʕni yimkin ʕa-šān il-bint mašġūla aw šāy <anchor synch="T60" />fa-yimkin garaṣ il-bint<anchor synch="T61" />garaṣṣ-a w-... mumkin yaʕni <anchor synch="T62" />garaṣ il-bint aw... šāy<anchor synch="T63" />ḏī.. hāḏī hiy <anchor synch="T64" />lābsa ḥizām <anchor synch="T65" />w šabbāsa <anchor synch="T66" />lli ʕala š-šaʕr hāḏa, šabbāsa </u>
+         </annotationBlock>
+         <annotationBlock xml:id="ab_d1e305" who="SPK0" start="T67" end="T68">
+            <u xml:id="u_d1e305">[silence]</u>
+         </annotationBlock>
+         <annotationBlock xml:id="ab_d1e490" who="SPK1" start="T68" end="T70">
+            <u xml:id="u_d1e490">w-bass. <anchor synch="T69" />aḷḷah yisallmič. </u>
+         </annotationBlock>
+         <annotationBlock xml:id="ab_d1e309" who="SPK0" start="T69" end="T71">
+            <u xml:id="u_d1e309">salāmtak. <anchor synch="T70" />[silence]</u>
+         </annotationBlock>
+         <annotationBlock xml:id="ab_d1e496" who="SPK1" start="T71" end="T79">
+            <u xml:id="u_d1e496">ham ixt w-uxt-a <anchor synch="T72" />mumkin la-ann-ah kān yalʕabūnan maʕ baʕḏ̣ <anchor synch="T73" />inn-ah kān yahdif ʕala ix-ah<anchor synch="T74" />yhádif il-aġrāḏ̣ aw il-ašyā <anchor synch="T75" />fa-yimkin wadet (?) ʕalē-h il-ḥaḏ̣ḏ̣ uxt-ah <anchor synch="T76" />w-xāf, xāf ibin-ha <anchor synch="T77" />aw inn-ah irtāḥ <anchor synch="T78" />fa-ḥoṭṭ īd-ih ʕala wiǧh-ah</u>
+         </annotationBlock>
+         <annotationBlock xml:id="ab_d1e315" who="SPK0" start="T79" end="T80">
+            <u xml:id="u_d1e315">[pause]</u>
+         </annotationBlock>
+         <annotationBlock xml:id="ab_d1e522" who="SPK1" start="T80" end="T81">
+            <u xml:id="u_d1e522">w-bass. </u>
+         </annotationBlock>
+         <annotationBlock xml:id="ab_d1e318" who="SPK0" start="T81" end="T84">
+            <u xml:id="u_d1e318">[rustling] <anchor synch="T82" />kamān wāḥde? <anchor synch="T83" />[rustling] </u>
+         </annotationBlock>
+         <annotationBlock xml:id="ab_d1e525" who="SPK1" start="T82" end="T83">
+            <u xml:id="u_d1e525">bass. </u>
+         </annotationBlock>
+         <annotationBlock xml:id="ab_d1e328" who="SPK0" start="T86" end="T85">
+            <u xml:id="u_d1e328">itfaḏ̣ḏ̣al! </u>
+         </annotationBlock>
+      </body>
+   </text>
+</TEI>
