@@ -51,7 +51,7 @@
                      <surname><!-- add if person wishes to be mentioned by name --></surname>
                      <abbr>XXXX</abbr>
                   </persName>
-                  <age atLeast="1111"><!-- give the estimated minimum age of a person --></age>
+                  <age atLeast="1111" n="1111"><!-- give the estimated minimum age of a person --></age>
                   <education><!-- what education has this person received?--></education>
                   <langKnowledge>
                      <langKnown tag="ar"><!-- specify variety of Arabic --></langKnown>
