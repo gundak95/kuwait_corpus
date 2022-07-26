@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><!-- insert title of the text--></title>
+         </titleStmt>
+         <publicationStmt>
+            <p><!-- add info here (WIBARAB?) --></p>
+         </publicationStmt>
+         <sourceDesc>
+            <recordingStmt>
+            <recording type="audio">
+               <respStmt sameAs=""><persName><!-- Name of the person who conducted the recording, also link to person in the persList --></persName>
+               <resp><!-- name what was their role, e.g. "interviewer" or "data elicitation" --></resp></respStmt>
+               <date when="1111"><!-- date of the recording, also add to @when --></date>
+               <media url="www.someurl.net" mimeType="audio"><!-- link to the audio file if available, specify @ --></media>
+               <equipment><!-- specify the recording device used, e.g. Zoom H2n --><p/></equipment>
+            </recording>
+            </recordingStmt>
+            
+            
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <particDesc>
+           <listPerson><person>
+              <persName><!-- include the person's name if they wish to be mentioned --></persName>
+              <age atLeast="11" ><!-- give the estimated minimum age of a person --></age>
+              <education><!-- what education has this person received?--></education>
+              <langKnowledge><langKnown tag="ar"><!-- specify var of Arabic --></langKnown></langKnowledge>
+           </person>
+           </listPerson>
+        </particDesc>
+        <settingDesc><place><!-- place with coordinated --></place>
+        <setting ana="xxxx"><!-- include here whether this is elicited data or free speech, link to the description of the method --></setting>
+        </settingDesc>
+     </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Some text here.</p>
+      </body>
+  </text>
+</TEI>
