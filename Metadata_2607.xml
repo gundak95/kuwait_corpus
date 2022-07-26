@@ -3,46 +3,103 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title><!-- insert title of the text--></title>
          </titleStmt>
          <publicationStmt>
-            <p><!-- add info here (WIBARAB?) --></p>
+            <authority>
+               <orgName>WIBARAB</orgName>
+            </authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+               <p>CC Attribution-NonCommercial-ShareAlike 4.0</p>
+               <p>You are free to share and adapt the material under the following conditions: You
+                  must give appropriate credit, provide a link to the license, and indicate if
+                  changes were made. You may do so in any reasonable manner, but not in any way that
+                  suggests the licensor endorses you or your use. You may not use the material for
+                  commercial purposes. If you remix, transform, or build upon the material, you must
+                  distribute your contributions under the same license as the original. </p>
+            </availability>
          </publicationStmt>
          <sourceDesc>
             <recordingStmt>
-            <recording type="audio">
-               <respStmt sameAs=""><persName><!-- Name of the person who conducted the recording, also link to person in the persList --></persName>
-               <resp><!-- name what was their role, e.g. "interviewer" or "data elicitation" --></resp></respStmt>
-               <date when="1111"><!-- date of the recording, also add to @when --></date>
-               <media url="www.someurl.net" mimeType="audio"><!-- link to the audio file if available, specify @ --></media>
-               <equipment><!-- specify the recording device used, e.g. Zoom H2n --><p/></equipment>
-            </recording>
+               <recording type="audio">
+                  <respStmt sameAs="">
+                     <persName><!-- Name of the person who conducted the recording, also link to person in the persList --></persName>
+                     <resp><!-- name what was their role, e.g. "interviewer" or "data elicitation" --></resp>
+                  </respStmt>
+                  <date when="1111"><!-- date of the recording, also add to @when --></date>
+                  <media url="file:/Z:/WIBARAB/Gunda/Zoom/Kuwait/ZOOM0015.WAV" mimeType="audio"/>
+                  <equipment>
+                     <!-- specify the recording device used, e.g. Zoom H2n -->
+                     <p/>
+                  </equipment>
+               </recording>
             </recordingStmt>
-            
-            
+
          </sourceDesc>
+
       </fileDesc>
-     <profileDesc>
-        <particDesc>
-           <listPerson><person>
-              <persName><!-- include the person's name if they wish to be mentioned --></persName>
-              <age atLeast="11" ><!-- give the estimated minimum age of a person --></age>
-              <education><!-- what education has this person received?--></education>
-              <langKnowledge><langKnown tag="ar"><!-- specify var of Arabic --></langKnown></langKnowledge>
-           </person>
-           </listPerson>
-        </particDesc>
-        <settingDesc><place><!-- place with coordinated --></place>
-        <setting ana="xxxx"><!-- include here whether this is elicited data or free speech, link to the description of the method --></setting>
-        </settingDesc>
-     </profileDesc>
-  </teiHeader>
-  <text>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="SPK1111" n="1111" sex="2">
+                  <persName>
+                     <forename><!-- add if person wishes to be mentioned by name --></forename>
+                     <surname><!-- add if person wishes to be mentioned by name --></surname>
+                     <abbr>XXXX</abbr>
+                  </persName>
+                  <age atLeast="1111"><!-- give the estimated minimum age of a person --></age>
+                  <education><!-- what education has this person received?--></education>
+                  <langKnowledge>
+                     <langKnown tag="ar"><!-- specify variety of Arabic --></langKnown>
+                  </langKnowledge>
+                  <occupation><!-- add the person's occupation --></occupation>
+                  <residence type="former"><!-- add a former place of residence --></residence>
+                  <residence type="current"><!-- add the current place of residence --></residence>
+                  <birth>
+                     <date when="1111"/>
+                     <location><!-- add location of birth --></location>
+                  </birth>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <place><!-- place with coordinates --></place>
+
+            <setting ana="xxxx"
+               ><!-- include here whether this is elicited data or free speech, link to the description of the method --></setting>
+         </settingDesc>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application ident="xml:xxx" version="1111">
+               <label><!-- specify transcription software --></label>
+            </application>
+            <application version="1111" ident="xml:xxxx">
+               <label><!-- specify encoding software --></label>
+            </application>
+         </appInfo>
+         <transcriptionDesc ident="HIAT" version="2004">
+            <desc><!--Fill me in--></desc>
+            <label><!--Fill me in--></label>
+          
+         </transcriptionDesc>
+         <charDecl>
+            <desc/>
+            <char/>
+            <!-- read up on this! -->
+         </charDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2022-07-25T16:14:10.145+02:00">Created by XSL transformation from an EXMARaLDA basic transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
       <body>
          <p>Some text here.</p>
       </body>
-  </text>
+   </text>
 </TEI>
