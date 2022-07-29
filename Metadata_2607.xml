@@ -11,6 +11,7 @@
          <publicationStmt>
             <authority>
                <orgName>WIBARAB</orgName>
+               <!-- Something else needed here? -->
             </authority>
             <availability>
                <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
@@ -23,11 +24,12 @@
                   distribute your contributions under the same license as the original. </p>
             </availability>
          </publicationStmt>
+         <!-- info about the database goes here -->
          <sourceDesc>
             <recordingStmt>
                <recording type="audio">
-                  <respStmt sameAs="">
-                     <persName><!-- Name of the person who conducted the recording, also link to person in the persList --></persName>
+                  <respStmt>
+                     <persName><!-- Name of the person who conducted the recording, also link to person in the list --></persName>
                      <resp><!-- name what was their role, e.g. "interviewer" or "data elicitation" --></resp>
                   </respStmt>
                   <date when="1111"><!-- date of the recording, also add to @when --></date>
@@ -45,13 +47,14 @@
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person xml:id="SPK1111" n="1111" sex="2">
+               <person xml:id="XXX" n="1111" sex="2">
+                  <!-- 1 for male , 2 for female (automatically in EMXARaLDA -->
                   <persName>
                      <forename><!-- add if person wishes to be mentioned by name --></forename>
                      <surname><!-- add if person wishes to be mentioned by name --></surname>
-                     <abbr>XXXX</abbr>
+                     <abbr>XXXX<!-- add the code for the person, same as xml:ID --></abbr>
                   </persName>
-                  <age atLeast="1111" n="1111"><!-- give the estimated minimum age of a person --></age>
+                  <age atLeast="1111" n="1111"><!-- give the estimated minimum age of a person or known age--></age>
                   <education><!-- what education has this person received?--></education>
                   <langKnowledge>
                      <langKnown tag="ar"><!-- specify variety of Arabic --></langKnown>
@@ -83,15 +86,11 @@
             </application>
          </appInfo>
          <transcriptionDesc ident="HIAT" version="2004">
-            <desc><!--Fill me in--></desc>
-            <label><!--Fill me in--></label>
+            <desc>Modified DMG Transcription system</desc>
+            
           
          </transcriptionDesc>
-         <charDecl>
-            <desc/>
-            <char/>
-            <!-- read up on this! -->
-         </charDecl>
+        
       </encodingDesc>
       <revisionDesc>
          <change when="2022-07-25T16:14:10.145+02:00">Created by XSL transformation from an EXMARaLDA basic transcription</change>
