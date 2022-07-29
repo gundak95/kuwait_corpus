@@ -1,0 +1,730 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../082_scripts_xsl/tei_fs_2_html__001.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:exmaralda="http://www.exmaralda.org" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<authority/>
+				<availability>
+					<licence target="someurl"/>
+					<p/>
+				</availability>
+				<distributor/>
+				<address>
+					<addrLine/>
+				</address>
+			</publicationStmt>
+			<sourceDesc>
+				<recordingStmt>
+					<recording type="video">
+						<media mimeType="audio/xxx" url="file:/Z:/WIBARAB/Gunda/Zoom/Kuwait/ZOOM0015.WAV"/>
+						<broadcast>
+							<ab><!--Fill me in--></ab>
+						</broadcast>
+						<equipment>
+							<ab><!--Fill me in--></ab>
+							<ab><!--Fill me in--></ab>
+						</equipment>
+					</recording>
+				</recordingStmt>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<person xml:id="SPK0" n="X" sex="2">
+					<persName>
+						<forename>?</forename>
+						<abbr>X</abbr>
+					</persName>
+				</person>
+				<person xml:id="SPK1" n="SPK1" sex="1">
+					<persName>
+						<forename>?</forename>
+						<abbr>SPK1</abbr>
+					</persName>
+				</person>
+			</particDesc>
+			<settingDesc>
+				<place><!--Fill me in--></place>
+				<setting>
+					<activity><!--Fill me in--></activity>
+				</setting>
+			</settingDesc>
+		</profileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application ident="EXMARaLDA" version="1.5.3">
+					<label>EXMARaLDA Partitur-Editor</label>
+					<desc>Transcription Tool providing a TEI Export</desc>
+				</application>
+			</appInfo>
+			<transcriptionDesc ident="HIAT" version="2004">
+				<desc><!--Fill me in--></desc>
+				<label><!--Fill me in--></label>
+			</transcriptionDesc>
+		</encodingDesc>
+		<revisionDesc>
+			<change when="2022-07-25T16:14:10.145+02:00">Created by XSL transformation from an EXMARaLDA basic transcription</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<timeline unit="s">
+			<when absolute="00:00:00.0" xml:id="T0"/>
+			<when xml:id="T2" interval="2.0" since="T0"/>
+			<when xml:id="T4" interval="3.733279869779787" since="T0"/>
+			<when xml:id="T5" interval="5.739917799786423" since="T0"/>
+			<when xml:id="T6" interval="8.139940712737943" since="T0"/>
+			<when xml:id="T3" interval="10.139940712737943" since="T0"/>
+			<when xml:id="T7" interval="12.139940712737943" since="T0"/>
+			<when xml:id="T8" interval="14.139940712737943" since="T0"/>
+			<when xml:id="T9" interval="16.139940712737943" since="T0"/>
+			<when xml:id="T10" interval="18.139940712737943" since="T0"/>
+			<when xml:id="T11" interval="22.92633834316551" since="T0"/>
+			<when xml:id="T12" interval="24.92633834316551" since="T0"/>
+			<when xml:id="T13" interval="27.426273900489363" since="T0"/>
+			<when xml:id="T14" interval="28.279595013581886" since="T0"/>
+			<when xml:id="T15" interval="30.572895505018042" since="T0"/>
+			<when xml:id="T16" interval="32.93286170841454" since="T0"/>
+			<when xml:id="T17" interval="34.35284137317007" since="T0"/>
+			<when xml:id="T18" interval="36.55280986786173" since="T0"/>
+			<when xml:id="T19" interval="38.55280986786173" since="T0"/>
+			<when xml:id="T20" interval="41.232742847478534" since="T0"/>
+			<when xml:id="T21" interval="42.032731391002784" since="T0"/>
+			<when xml:id="T22" interval="43.93273347832831" since="T0"/>
+			<when xml:id="T23" interval="44.7726921525733" since="T0"/>
+			<when xml:id="T24" interval="46.7726921525733" since="T0"/>
+			<when xml:id="T25" interval="48.27930860168789" since="T0"/>
+			<when xml:id="T26" interval="50.27930860168789" since="T0"/>
+			<when xml:id="T27" interval="52.27930860168789" since="T0"/>
+			<when xml:id="T28" interval="54.025977606874974" since="T0"/>
+			<when xml:id="T29" interval="56.31252689291046" since="T0"/>
+			<when xml:id="T30" interval="58.50582881640609" since="T0"/>
+			<when xml:id="T31" interval="60.73915620837166" since="T0"/>
+			<when xml:id="T32" interval="62.85248531880859" since="T0"/>
+			<when xml:id="T33" interval="65.60581177438834" since="T0"/>
+			<when xml:id="T34" interval="68.5524622843297" since="T0"/>
+			<when xml:id="T35" interval="71.38578108393847" since="T0"/>
+			<when xml:id="T36" interval="73.8391053253732" since="T0"/>
+			<when xml:id="T37" interval="77.69240951797535" since="T0"/>
+			<when xml:id="T38" interval="82.87902794978457" since="T0"/>
+			<when xml:id="T39" interval="85.23235362327877" since="T0"/>
+			<when xml:id="T40" interval="86.4723619070351" since="T0"/>
+			<when xml:id="T41" interval="87.13904506793236" since="T0"/>
+			<when xml:id="T42" interval="89.60570245175916" since="T0"/>
+			<when xml:id="T43" interval="91.60570245175916" since="T0"/>
+			<when xml:id="T44" interval="93.60570245175916" since="T0"/>
+			<when xml:id="T45" interval="95.60570245175916" since="T0"/>
+			<when xml:id="T46" interval="97.60570245175916" since="T0"/>
+			<when xml:id="T47" interval="103.89897432317447" since="T0"/>
+			<when xml:id="T48" interval="105.69230801620171" since="T0"/>
+			<when xml:id="T49" interval="109.57895157510748" since="T0"/>
+			<when xml:id="T50" interval="111.57895157510748" since="T0"/>
+			<when xml:id="T51" interval="120.23885100015544" since="T0"/>
+			<when xml:id="T52" interval="122.23885100015544" since="T0"/>
+			<when xml:id="T53" interval="125.64549232272756" since="T0"/>
+			<when xml:id="T54" interval="127.64549232272756" since="T0"/>
+			<when xml:id="T55" interval="129.75881883326883" since="T0"/>
+			<when xml:id="T56" interval="133.19214206116763" since="T0"/>
+			<when xml:id="T57" interval="135.35880374117286" since="T0"/>
+			<when xml:id="T58" interval="138.43878567503492" since="T0"/>
+			<when xml:id="T59" interval="141.67876531760183" since="T0"/>
+			<when xml:id="T60" interval="143.58543072096165" since="T0"/>
+			<when xml:id="T61" interval="145.23876641887216" since="T0"/>
+			<when xml:id="T62" interval="147.5454260939941" since="T0"/>
+			<when xml:id="T63" interval="149.5454260939941" since="T0"/>
+			<when xml:id="T64" interval="151.5454260939941" since="T0"/>
+			<when xml:id="T65" interval="153.5454260939941" since="T0"/>
+			<when xml:id="T66" interval="155.5454260939941" since="T0"/>
+			<when xml:id="T67" interval="157.8387552477882" since="T0"/>
+			<when xml:id="T68" interval="161.7120591539785" since="T0"/>
+			<when xml:id="T69" interval="162.7054043034815" since="T0"/>
+			<when xml:id="T70" interval="165.4787239623259" since="T0"/>
+			<when xml:id="T71" interval="181.7640636599034" since="T0"/>
+			<when xml:id="T72" interval="184.00405762306497" since="T0"/>
+			<when xml:id="T73" interval="187.31736954878826" since="T0"/>
+			<when xml:id="T74" interval="190.54401604896313" since="T0"/>
+			<when xml:id="T75" interval="193.43066741814013" since="T0"/>
+			<when xml:id="T76" interval="196.59064820635464" since="T0"/>
+			<when xml:id="T77" interval="198.63048878587276" since="T0"/>
+			<when xml:id="T78" interval="201.45047444308946" since="T0"/>
+			<when xml:id="T79" interval="204.31045952748235" since="T0"/>
+			<when xml:id="T80" interval="208.61042399021886" since="T0"/>
+			<when xml:id="T81" interval="210.61042399021886" since="T0"/>
+			<when xml:id="T82" interval="221.23016514043255" since="T0"/>
+			<when xml:id="T83" interval="223.23016514043255" since="T0"/>
+			<when xml:id="T84" interval="226.2834781896148" since="T0"/>
+			<when xml:id="T86" interval="229.8634529631795" since="T0"/>
+			<when xml:id="T85" interval="232.05675488667512" since="T0"/>
+			<when xml:id="T87" interval="234.09675171395565" since="T0"/>
+			<when xml:id="T1" interval="321.502" since="T0"/>
+		</timeline>
+		<body>
+			<annotationBlock xml:id="ab_d1e252" who="SPK0" start="T0" end="T4">
+				<u xml:lang="ar" xml:id="id_u_00000">
+					<w xml:id="{wid}" join="right">ēywah</w>
+					<pc type="ws" xml:id="{pcid}">,</pc>
+					<w xml:id="{wid}">tfaḏ̣ḏ̣al</w>
+					<anchor synch="T2"/>
+					<w xml:id="{wid}" join="right">nnn</w></u><u xml:lang="en"></u></annotationBlock>
+			<annotationBlock xml:id="ab_d1e332" who="SPK1" start="T4" end="T3">
+				<u xml:lang="ar" xml:id="id_u_00002">
+					<w xml:id="{wid}">hāḏī</w>
+					<anchor synch="T5"/>
+					<w xml:id="{wid}">mara</w>
+					<w xml:id="{wid}" join="right">aw</w>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc>
+					<pc type="ws" xml:id="{pcid}">.</pc>
+					<w xml:id="{wid}" join="right">mara</w>
+					<pc type="ws" xml:id="{pcid}">,</pc>
+					<w xml:id="{wid}">ē</w>
+					<anchor synch="T6"/>
+					<w xml:id="{wid}">axtār</w>
+					<w xml:id="{wid}">hente</w>
+					<w xml:id="{wid}" join="right">menya</w></u><u xml:lang="en"></u></annotationBlock>
+			<annotationBlock xml:id="ab_d1e258" who="SPK0" start="T3" end="T9">
+				<u xml:lang="ar" xml:id="id_u_00004">
+					<w xml:id="{wid}" join="right">nnn</w>
+					<anchor synch="T7"/>
+					<w xml:id="{wid}" join="right">nnn</w>
+					<anchor synch="T8"/>
+					<w xml:id="{wid}" join="right">nnn</w></u><u xml:lang="en"></u></annotationBlock>
+			<annotationBlock xml:id="ab_d1e341" who="SPK1" start="T9" end="T10">
+				<u xml:lang="ar" xml:id="id_u_00006">
+					<w xml:id="{wid}" join="right">xxx</w></u><u xml:lang="en"></u></annotationBlock>
+			<annotationBlock xml:id="ab_d1e267" who="SPK0" start="T10" end="T11">
+				<u xml:lang="ar" xml:id="id_u_00008">
+					<w xml:id="{wid}" join="right">nnn</w></u><u xml:lang="en"></u></annotationBlock>
+			<annotationBlock xml:id="ab_d1e344" who="SPK1" start="T11" end="T12">
+				<u xml:lang="ar" xml:id="id_u_00010">
+					<w xml:id="{wid}">hena</w>
+					<w xml:id="{wid}">arbuṭ</w>
+					<w xml:id="{wid}" join="right">il</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">baʕḏ̣</w>
+					<w xml:id="{wid}" join="right">willa</w>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc>
+					<pc type="ws" xml:id="{pcid}" join="right">?</pc></u><u xml:lang="en"></u></annotationBlock>
+			<annotationBlock xml:id="ab_d1e271" who="SPK0" start="T12" end="T13">
+				<u xml:lang="ar" xml:id="id_u_00012">
+					<w xml:id="{wid}">ayya</w>
+					<w xml:id="{wid}" join="right">šēy</w>
+					<pc type="ws" xml:id="{pcid}">,</pc>
+					<w xml:id="{wid}">ayya</w>
+					<w xml:id="{wid}">šēy</w>
+					<w xml:id="{wid}">yuxṭur</w>
+					<w xml:id="{wid}" join="right">ʕa</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}" join="right">bālak</w></u><u xml:lang="en"></u></annotationBlock>
+			<annotationBlock xml:id="ab_d1e347" who="SPK1" start="T13" end="T39">
+				<u xml:lang="ar" xml:id="id_u_00014">
+					<w xml:id="{wid}">bass</w>
+					<w xml:id="{wid}">haḏōl</w>
+					<anchor synch="T14"/>
+					<w xml:id="{wid}">la</w>
+					<w xml:id="{wid}" join="right">la</w>
+					<pc type="ws" xml:id="{pcid}">,</pc>
+					<w xml:id="{wid}">ana</w>
+					<w xml:id="{wid}" join="right">ʕārif</w>
+					<anchor synch="T15"/>
+					<w xml:id="{wid}" join="right">äh</w>
+					<pc type="ws" xml:id="{pcid}">,</pc>
+					<w xml:id="{wid}">hāḏi</w>
+					<w xml:id="{wid}" join="right">l</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">umm</w>
+					<anchor synch="T16"/>
+					<w xml:id="{wid}" join="right">w</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">hāḏi</w>
+					<w xml:id="{wid}" join="right">l</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}" join="right">walad</w>
+					<pc type="ws" xml:id="{pcid}">,</pc>
+					<w xml:id="{wid}" join="right">yaʕni</w>
+					<pc type="ws" xml:id="{pcid}">,</pc>
+					<anchor synch="T17"/>
+					<w xml:id="{wid}">yaʕni</w>
+					<w xml:id="{wid}">aw</w>
+					<anchor synch="T18"/>
+					<w xml:id="{wid}">haḏa</w>
+					<w xml:id="{wid}" join="right">l</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">walad</w>
+					<w xml:id="{wid}">gaʕd</w>
+					<w xml:id="{wid}" join="right">yadris</w>
+					<anchor synch="T19"/>
+					<w xml:id="{wid}" join="right">äh</w>
+					<pc type="ws" xml:id="{pcid}">,</pc>
+					<w xml:id="{wid}">yimkin</w>
+					<w xml:id="{wid}" join="right">baʕd</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">ha</w>
+					<w xml:id="{wid}">ṭalaʕ</w>
+					<w xml:id="{wid}">yaʕni</w>
+					<anchor synch="T20"/>
+					<w xml:id="{wid}" join="right">ʕa</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">šān</w>
+					<w xml:id="{wid}">yalʕab</w>
+					<anchor synch="T21"/>
+					<w xml:id="{wid}" join="right">w</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}" join="right">il</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">umm</w>
+					<w xml:id="{wid}">kānat</w>
+					<w xml:id="{wid}">yaʕni</w>
+					<w xml:id="{wid}" join="right">ǧabrit</w>
+					<pc type="ws" xml:id="{pcid}">,</pc>
+					<w xml:id="{wid}" join="right">äh</w>
+					<pc type="ws" xml:id="{pcid}">,</pc>
+					<w xml:id="{wid}">yaʕni</w>
+					<anchor synch="T22"/>
+					<w xml:id="{wid}" join="right">gālat</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}" join="right">l</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">ah</w>
+					<w xml:id="{wid}">adris</w>
+					<anchor synch="T23"/>
+					<w xml:id="{wid}">yimkin</w>
+					<w xml:id="{wid}">ṭalaʕ</w>
+					<w xml:id="{wid}">yalʕab</w>
+					<w xml:id="{wid}">aw</w>
+					<w xml:id="{wid}">šāy</w>
+					<anchor synch="T24"/>
+					<w xml:id="{wid}" join="right">fa</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">lamma</w>
+					<anchor synch="T25"/>
+					<w xml:id="{wid}">šāf</w>
+					<w xml:id="{wid}" join="right">umm</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">ah</w>
+					<w xml:id="{wid}">xašš</w>
+					<w xml:id="{wid}" join="right">il</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc>
+					<anchor synch="T26"/>
+					<w xml:id="{wid}">xašš</w>
+					<w xml:id="{wid}" join="right">il</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc>
+					<anchor synch="T27"/>
+					<w xml:id="{wid}" join="right">il</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}" join="right">kāyn</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">ah</w>
+					<w xml:id="{wid}" join="right">fī</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">h</w>
+					<w xml:id="{wid}">taḥt</w>
+					<w xml:id="{wid}" join="right">iṭ</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">ṭāwla</w>
+					<w xml:id="{wid}" join="right">w</w>
+					<pc type="ws" xml:id="{pcid}">-</pc>
+					<anchor synch="T28"/>
+					<w xml:id="{wid}">mū</w>
+					<w xml:id="{wid}">taḥt</w>
+					<w xml:id="{wid}" join="right">iṭ</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}" join="right">ṭāwla</w>
+					<pc type="ws" xml:id="{pcid}">,</pc>
+					<w xml:id="{wid}">ahwán</w>
+					<w xml:id="{wid}">taḥt</w>
+					<w xml:id="{wid}" join="right">il</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">farš</w>
+					<anchor synch="T29"/>
+					<w xml:id="{wid}">aw</w>
+					<w xml:id="{wid}">taḥt</w>
+					<w xml:id="{wid}" join="right">iz</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}" join="right">zūliyya</w>
+					<anchor synch="T30"/>
+					<w xml:id="{wid}" join="right">xašš</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">ha</w>
+					<w xml:id="{wid}">taḥt</w>
+					<w xml:id="{wid}" join="right">il</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc>
+					<w xml:id="{wid}">zulya</w>
+					<anchor synch="T31"/>
+					<w xml:id="{wid}">kān</w>
+					<w xml:id="{wid}">xāyif</w>
+					<anchor synch="T32"/>
+					<w xml:id="{wid}" join="right">w</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">ǧā</w>
+					<w xml:id="{wid}">fī</w>
+					<w xml:id="{wid}">ʕala</w>
+					<w xml:id="{wid}" join="right">rukbit</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}" join="right">ha</w>
+					<anchor synch="T33"/>
+					<w xml:id="{wid}" join="right">ē</w>
+					<pc type="ws" xml:id="{pcid}">,</pc>
+					<w xml:id="{wid}">nāzi</w>
+					<w xml:id="{wid}" join="right">ʕa</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}" join="right">rukbit</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">eh</w>
+					<anchor synch="T34"/>
+					<w xml:id="{wid}" join="right">w</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc>
+					<pc type="ws" xml:id="{pcid}">.</pc>
+					<anchor synch="T35"/>
+					<w xml:id="{wid}" join="right">w</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}" join="right">il</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">umm</w>
+					<w xml:id="{wid}">yaʕni</w>
+					<w xml:id="{wid}">lābsa</w>
+					<w xml:id="{wid}" join="right">äh</w>
+					<pc type="ws" xml:id="{pcid}">,</pc>
+					<anchor synch="T36"/>
+					<w xml:id="{wid}">lābsa</w>
+					<w xml:id="{wid}">yaʕni</w>
+					<anchor synch="T37"/>
+					<w xml:id="{wid}" join="right">wišāḥ</w>
+					<pc type="ws" xml:id="{pcid}">.</pc>
+					<anchor synch="T38"/>
+					<w xml:id="{wid}">hāḏa</w>
+					<w xml:id="{wid}" join="right">huw</w>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc></u><u xml:lang="en"></u></annotationBlock>
+			<annotationBlock xml:id="ab_d1e274" who="SPK0" start="T14" end="T15">
+				<u xml:lang="ar" xml:id="id_u_00016">
+					<w xml:id="{wid}">mu</w>
+					<w xml:id="{wid}">šarṭ</w>
+					<w xml:id="{wid}">ykūn</w>
+					<w xml:id="{wid}">kṯīr</w>
+					<w xml:id="{wid}" join="right">ḏakiy</w></u><u xml:lang="en"></u></annotationBlock>
+			<annotationBlock xml:id="ab_d1e277" who="SPK0" start="T39" end="T40">
+				<u xml:lang="ar" xml:id="id_u_00018">
+					<w xml:id="{wid}">yaʕṭīk</w>
+					<w xml:id="{wid}" join="right">il</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}" join="right">ʕāfye</w>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc></u><u xml:lang="en"></u></annotationBlock>
+			<annotationBlock xml:id="ab_d1e430" who="SPK1" start="T40" end="T43">
+				<u xml:lang="ar" xml:id="id_u_00020">
+					<w xml:id="{wid}" join="right">w</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">aḷḷah</w>
+					<w xml:id="{wid}" join="right">yʕafīč</w>
+					<pc type="ws" xml:id="{pcid}">,</pc>
+					<anchor synch="T41"/>
+					<w xml:id="{wid}">tannōra</w>
+					<w xml:id="{wid}" join="right">w</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<pc type="ws" xml:id="{pcid}">,</pc>
+					<w xml:id="{wid}" join="right">w</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">blōze</w>
+					<anchor synch="T42"/>
+					<w xml:id="{wid}">aw</w>
+					<w xml:id="{wid}" join="right">inn</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}" join="right">ah</w></u><u xml:lang="en"></u></annotationBlock>
+			<annotationBlock xml:id="ab_d1e280" who="SPK0" start="T43" end="T51">
+				<u xml:lang="ar" xml:id="id_u_00022">
+					<w xml:id="{wid}">mhm</w>
+					<anchor synch="T44"/>
+					<w xml:id="{wid}" join="right">nnn</w>
+					<anchor synch="T45"/>
+					<w xml:id="{wid}" join="right">nnn</w>
+					<anchor synch="T46"/>
+					<w xml:id="{wid}" join="right">nnn</w>
+					<anchor synch="T47"/>
+					<w xml:id="{wid}" join="right">nnn</w>
+					<anchor synch="T48"/>
+					<w xml:id="{wid}" join="right">nnn</w>
+					<anchor synch="T49"/>
+					<w xml:id="{wid}" join="right">nnn</w>
+					<anchor synch="T50"/>
+					<w xml:id="{wid}" join="right">nnn</w></u><u xml:lang="en"></u></annotationBlock>
+			<annotationBlock xml:id="ab_d1e439" who="SPK1" start="T51" end="T67">
+				<u xml:lang="ar" xml:id="id_u_00024">
+					<w xml:id="{wid}" join="right">ḥilu</w>
+					<pc type="ws" xml:id="{pcid}">,</pc>
+					<w xml:id="{wid}" join="right">äh</w>
+					<pc type="ws" xml:id="{pcid}">,</pc>
+					<anchor synch="T52"/>
+					<w xml:id="{wid}">hāḏi</w>
+					<w xml:id="{wid}">bint</w>
+					<w xml:id="{wid}">yimkin</w>
+					<w xml:id="{wid}">yaʕni</w>
+					<anchor synch="T53"/>
+					<w xml:id="{wid}">taṭlaʕ</w>
+					<w xml:id="{wid}">aw</w>
+					<w xml:id="{wid}">šāy</w>
+					<anchor synch="T54"/>
+					<w xml:id="{wid}" join="right">w</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}" join="right">uxū</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}" join="right">ha</w>
+					<pc type="ws" xml:id="{pcid}">,</pc>
+					<anchor synch="T55"/>
+					<w xml:id="{wid}" join="right">xwān</w>
+					<pc type="ws" xml:id="{pcid}">,</pc>
+					<w xml:id="{wid}" join="right">gālit</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}" join="right">l</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">ah</w>
+					<w xml:id="{wid}">yimkin</w>
+					<w xml:id="{wid}">maṭalan</w>
+					<w xml:id="{wid}" join="right">umm</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">ah</w>
+					<w xml:id="{wid}">yigiṭṭ</w>
+					<w xml:id="{wid}" join="right">ál</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">zibāle</w>
+					<w xml:id="{wid}">barra</w>
+					<anchor synch="T56"/>
+					<w xml:id="{wid}" join="right">al</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc>
+					<pc type="ws" xml:id="{pcid}">.</pc>
+					<w xml:id="{wid}" join="right">nifāyāt</w>
+					<anchor synch="T57"/>
+					<w xml:id="{wid}">fa</w>
+					<w xml:id="{wid}">mumkin</w>
+					<w xml:id="{wid}">yaʕni</w>
+					<w xml:id="{wid}" join="right">inn</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">ah</w>
+					<anchor synch="T58"/>
+					<w xml:id="{wid}">zaʕil</w>
+					<w xml:id="{wid}" join="right">inn</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">ah</w>
+					<w xml:id="{wid}">lēš</w>
+					<w xml:id="{wid}" join="right">itgūl</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}" join="right">l</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">ah</w>
+					<w xml:id="{wid}">mā</w>
+					<w xml:id="{wid}">tgūl</w>
+					<w xml:id="{wid}">yaʕni</w>
+					<w xml:id="{wid}">maṯalan</w>
+					<w xml:id="{wid}" join="right">l</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">aḥad</w>
+					<w xml:id="{wid}">ṯāni</w>
+					<anchor synch="T59"/>
+					<w xml:id="{wid}" join="right">fa</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">yaʕni</w>
+					<w xml:id="{wid}">yimkin</w>
+					<w xml:id="{wid}" join="right">ʕa</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">šān</w>
+					<w xml:id="{wid}" join="right">il</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">bint</w>
+					<w xml:id="{wid}">mašġūla</w>
+					<w xml:id="{wid}">aw</w>
+					<w xml:id="{wid}">šāy</w>
+					<anchor synch="T60"/>
+					<w xml:id="{wid}" join="right">fa</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">yimkin</w>
+					<w xml:id="{wid}">garaṣ</w>
+					<w xml:id="{wid}" join="right">il</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}" join="right">bint</w>
+					<anchor synch="T61"/>
+					<w xml:id="{wid}" join="right">garaṣṣ</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">a</w>
+					<w xml:id="{wid}" join="right">w</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc>
+					<pc type="ws" xml:id="{pcid}">.</pc>
+					<w xml:id="{wid}">mumkin</w>
+					<w xml:id="{wid}">yaʕni</w>
+					<anchor synch="T62"/>
+					<w xml:id="{wid}">garaṣ</w>
+					<w xml:id="{wid}" join="right">il</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">bint</w>
+					<w xml:id="{wid}" join="right">aw</w>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc>
+					<pc type="ws" xml:id="{pcid}">.</pc>
+					<w xml:id="{wid}" join="right">šāy</w>
+					<anchor synch="T63"/>
+					<w xml:id="{wid}" join="right">ḏī</w>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc>
+					<pc type="ws" xml:id="{pcid}">.</pc>
+					<w xml:id="{wid}">hāḏī</w>
+					<w xml:id="{wid}">hiy</w>
+					<anchor synch="T64"/>
+					<w xml:id="{wid}">lābsa</w>
+					<w xml:id="{wid}">ḥizām</w>
+					<anchor synch="T65"/>
+					<w xml:id="{wid}">w</w>
+					<w xml:id="{wid}">šabbāsa</w>
+					<anchor synch="T66"/>
+					<w xml:id="{wid}">lli</w>
+					<w xml:id="{wid}">ʕala</w>
+					<w xml:id="{wid}" join="right">š</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">šaʕr</w>
+					<w xml:id="{wid}" join="right">hāḏa</w>
+					<pc type="ws" xml:id="{pcid}">,</pc>
+					<w xml:id="{wid}" join="right">šabbāsa</w></u><u xml:lang="en"></u></annotationBlock>
+			<annotationBlock xml:id="ab_d1e305" who="SPK0" start="T67" end="T68">
+				<u xml:lang="ar" xml:id="id_u_00026">
+					<w xml:id="{wid}" join="right">nnn</w></u><u xml:lang="en"></u></annotationBlock>
+			<annotationBlock xml:id="ab_d1e490" who="SPK1" start="T68" end="T70">
+				<u xml:lang="ar" xml:id="id_u_00028">
+					<w xml:id="{wid}" join="right">w</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}" join="right">bass</w>
+					<pc type="ws" xml:id="{pcid}">.</pc>
+					<anchor synch="T69"/>
+					<w xml:id="{wid}">aḷḷah</w>
+					<w xml:id="{wid}" join="right">yisallmič</w>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc></u><u xml:lang="en"></u></annotationBlock>
+			<annotationBlock xml:id="ab_d1e309" who="SPK0" start="T69" end="T71">
+				<u xml:lang="ar" xml:id="id_u_00030">
+					<w xml:id="{wid}" join="right">salāmtak</w>
+					<pc type="ws" xml:id="{pcid}">.</pc>
+					<anchor synch="T70"/>
+					<w xml:id="{wid}" join="right">nnn</w></u><u xml:lang="en"></u></annotationBlock>
+			<annotationBlock xml:id="ab_d1e496" who="SPK1" start="T71" end="T79">
+				<u xml:lang="ar" xml:id="id_u_00032">
+					<w xml:id="{wid}">ham</w>
+					<w xml:id="{wid}">ixt</w>
+					<w xml:id="{wid}" join="right">w</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}" join="right">uxt</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">a</w>
+					<anchor synch="T72"/>
+					<w xml:id="{wid}">mumkin</w>
+					<w xml:id="{wid}" join="right">la</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}" join="right">ann</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">ah</w>
+					<w xml:id="{wid}">kān</w>
+					<w xml:id="{wid}">yalʕabūnan</w>
+					<w xml:id="{wid}">maʕ</w>
+					<w xml:id="{wid}">baʕḏ̣</w>
+					<anchor synch="T73"/>
+					<w xml:id="{wid}" join="right">inn</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">ah</w>
+					<w xml:id="{wid}">kān</w>
+					<w xml:id="{wid}">yahdif</w>
+					<w xml:id="{wid}">ʕala</w>
+					<w xml:id="{wid}" join="right">ix</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}" join="right">ah</w>
+					<anchor synch="T74"/>
+					<w xml:id="{wid}">yhádif</w>
+					<w xml:id="{wid}" join="right">il</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">aġrāḏ̣</w>
+					<w xml:id="{wid}">aw</w>
+					<w xml:id="{wid}" join="right">il</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">ašyā</w>
+					<anchor synch="T75"/>
+					<w xml:id="{wid}" join="right">fa</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">yimkin</w>
+					<w xml:id="{wid}">wadet</w>
+					<w xml:id="{wid}" join="right">(</w>
+					<pc type="ws" xml:id="{pcid}" join="right">?</pc>
+					<w xml:id="{wid}">)</w>
+					<w xml:id="{wid}" join="right">ʕalē</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">h</w>
+					<w xml:id="{wid}" join="right">il</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">ḥaḏ̣ḏ̣</w>
+					<w xml:id="{wid}" join="right">uxt</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">ah</w>
+					<anchor synch="T76"/>
+					<w xml:id="{wid}" join="right">w</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}" join="right">xāf</w>
+					<pc type="ws" xml:id="{pcid}">,</pc>
+					<w xml:id="{wid}">xāf</w>
+					<w xml:id="{wid}" join="right">ibin</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">ha</w>
+					<anchor synch="T77"/>
+					<w xml:id="{wid}">aw</w>
+					<w xml:id="{wid}" join="right">inn</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">ah</w>
+					<w xml:id="{wid}">irtāḥ</w>
+					<anchor synch="T78"/>
+					<w xml:id="{wid}" join="right">fa</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">ḥoṭṭ</w>
+					<w xml:id="{wid}" join="right">īd</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}">ih</w>
+					<w xml:id="{wid}">ʕala</w>
+					<w xml:id="{wid}" join="right">wiǧh</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}" join="right">ah</w></u><u xml:lang="en"></u></annotationBlock>
+			<annotationBlock xml:id="ab_d1e315" who="SPK0" start="T79" end="T80">
+				<u xml:lang="ar" xml:id="id_u_00034">
+					<w xml:id="{wid}" join="right">nnn</w></u><u xml:lang="en"></u></annotationBlock>
+			<annotationBlock xml:id="ab_d1e522" who="SPK1" start="T80" end="T81">
+				<u xml:lang="ar" xml:id="id_u_00036">
+					<w xml:id="{wid}" join="right">w</w>
+					<pc type="ws" xml:id="{pcid}" join="right">-</pc>
+					<w xml:id="{wid}" join="right">bass</w>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc></u><u xml:lang="en"></u></annotationBlock>
+			<annotationBlock xml:id="ab_d1e318" who="SPK0" start="T81" end="T84">
+				<u xml:lang="ar" xml:id="id_u_00038">
+					<w xml:id="{wid}" join="right">nnn</w>
+					<anchor synch="T82"/>
+					<w xml:id="{wid}">kamān</w>
+					<w xml:id="{wid}" join="right">wāḥde</w>
+					<pc type="ws" xml:id="{pcid}">?</pc>
+					<anchor synch="T83"/>
+					<w xml:id="{wid}" join="right">nnn</w></u><u xml:lang="en"></u></annotationBlock>
+			<annotationBlock xml:id="ab_d1e525" who="SPK1" start="T82" end="T83">
+				<u xml:lang="ar" xml:id="id_u_00040">
+					<w xml:id="{wid}" join="right">bass</w>
+					<pc type="ws" xml:id="{pcid}" join="right">.</pc></u><u xml:lang="en"></u></annotationBlock>
+			<annotationBlock xml:id="ab_d1e328" who="SPK0" start="T86" end="T85">
+				<u xml:lang="ar" xml:id="id_u_00042">
+					<w xml:id="{wid}" join="right">itfaḏ̣ḏ̣al</w>
+					<pc type="ws" xml:id="{pcid}" join="right">!</pc></u><u xml:lang="en"></u></annotationBlock>
+		</body>
+	</text>
+</TEI>
