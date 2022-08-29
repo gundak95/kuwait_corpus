@@ -144,7 +144,7 @@
 			<change when="2022-08-29T11:17:07.924+02:00">Created by XSL transformation from an EXMARaLDA basic transcription</change>
 		</revisionDesc>
 	</teiHeader>
-	<text xml:lang="ars">
+	<text xml:lang="en">
 		<timeline unit="s">
 			<when absolute="00:00:00.0" xml:id="T0"/>
 			<when xml:id="T2" interval="0.05999987675638982" since="T0"/>

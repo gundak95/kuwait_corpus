@@ -1,104 +1,124 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title><!-- insert title of the text--></title>
-         </titleStmt>
-         <publicationStmt>
-            <authority>
-               <orgName>WIBARAB</orgName>
-               <!-- Something else needed here? -->
-            </authority>
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
-               <p>CC Attribution-NonCommercial-ShareAlike 4.0</p>
-               <p>You are free to share and adapt the material under the following conditions: You
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title><!-- insert title of the text--></title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>
+					<orgName>WIBARAB</orgName>
+					<!--@Charly: more info about database here? -->
+				</authority>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"/>
+					<p>CC Attribution-NonCommercial-ShareAlike 4.0</p>
+					<p>You are free to share and adapt the material under the following conditions: You
                   must give appropriate credit, provide a link to the license, and indicate if
                   changes were made. You may do so in any reasonable manner, but not in any way that
                   suggests the licensor endorses you or your use. You may not use the material for
                   commercial purposes. If you remix, transform, or build upon the material, you must
                   distribute your contributions under the same license as the original. </p>
-            </availability>
-         </publicationStmt>
-         <!-- info about the database goes here -->
-         <sourceDesc>
-            <recordingStmt>
-               <recording type="audio">
-                  <respStmt>
-                     <persName><!-- Name of the person who conducted the recording, also link to person in the list --></persName>
-                     <resp><!-- name what was their role, e.g. "interviewer" or "data elicitation" --></resp>
-                  </respStmt>
-                  <date when="1111"><!-- date of the recording, also add to @when --></date>
-                  <media url="file:/Z:/WIBARAB/Gunda/Zoom/Kuwait/ZOOM0015.WAV" mimeType="audio"/>
-                  <equipment>
-                     <!-- specify the recording device used, e.g. Zoom H2n -->
-                     <p/>
-                  </equipment>
-               </recording>
-            </recordingStmt>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<recordingStmt>
+					<recording type="audio">
+						<respStmt>
+							<persName sameAs=""><!--name of person who conducted recording, link to listPerson--></persName>
+							<resp>fieldworker</resp>
+						</respStmt>
+						<date when="YYYY-MM-DD"><!-- date of the recording, also add to @when --></date>
 
-         </sourceDesc>
-
-      </fileDesc>
-      <profileDesc>
-         <particDesc>
-            <listPerson>
-               <person xml:id="XXX" n="1111" sex="2">
-                  <!-- 1 for male , 2 for female (automatically in EMXARaLDA -->
-                  <persName>
-                     <forename><!-- add if person wishes to be mentioned by name --></forename>
-                     <surname><!-- add if person wishes to be mentioned by name --></surname>
-                     <abbr>XXXX<!-- add the code for the person, same as xml:ID --></abbr>
-                  </persName>
-                  <age atLeast="1111" n="1111"><!-- give the estimated minimum age of a person or known age--></age>
-                  <education><!-- what education has this person received?--></education>
-                  <langKnowledge>
-                     <langKnown tag="ar"><!-- specify variety of Arabic --></langKnown>
-                  </langKnowledge>
-                  <occupation><!-- add the person's occupation --></occupation>
-                  <residence type="former"><!-- add a former place of residence --></residence>
-                  <residence type="current"><!-- add the current place of residence --></residence>
-                  <birth>
-                     <date when="1111"/>
-                     <location><!-- add location of birth --></location>
-                  </birth>
-               </person>
-            </listPerson>
-         </particDesc>
-         <settingDesc>
-            <place><!-- place with coordinates --></place>
-
-            <setting ana="xxxx"
-               ><!-- include here whether this is elicited data or free speech, link to the description of the method --></setting>
-         </settingDesc>
-      </profileDesc>
-      <encodingDesc>
-         <appInfo>
-            <application ident="xml:xxx" version="1111">
-               <label><!-- specify transcription software --></label>
-            </application>
-            <application version="1111" ident="xml:xxxx">
-               <label><!-- specify encoding software --></label>
-            </application>
-         </appInfo>
-         <transcriptionDesc ident="HIAT" version="2004">
-            <desc>Modified DMG Transcription system</desc>
-            
-          
-         </transcriptionDesc>
-        
-      </encodingDesc>
-      <revisionDesc>
-         <change when="2022-07-25T16:14:10.145+02:00">Created by XSL transformation from an EXMARaLDA basic transcription</change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <p>Some text here.</p>
-      </body>
-   </text>
+						<equipment>
+							<p>Zoom H2n field recorder</p>
+						</equipment>
+					</recording>
+				</recordingStmt>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person xml:id="gk" sex="2">
+						<!-- 1 for male , 2 for female (automatically in EMXARaLDA -->
+						<persName>
+							<forename>Gunda</forename>
+							<surname>Kinzl</surname>
+							<abbr>GK</abbr>
+						</persName>
+						<age atLeast="20" n="27"><!-- give the estimated minimum age of a person or known age--></age>
+						<education><!-- what education has this person received?--></education>
+						<langKnowledge>
+							<langKnown tag="ars"><!-- specify variety of Arabic --></langKnown>
+						</langKnowledge>
+						<occupation><!-- add the person's occupation --></occupation>
+						<residence type="former"><!-- add a former place of residence --></residence>
+						<residence type="current"><!-- add the current place of residence --></residence>
+						<birth>
+							<date when="1111"/>
+							<location><!-- add location of birth --></location>
+						</birth>
+					</person>
+               <person xml:id="" sex="1">
+						<!-- 1 for male , 2 for female (automatically in EMXARaLDA -->
+						<persName>
+							<forename>Saʕd</forename>
+							<surname>Mṣēbiḥ ar-Rašīdi</surname>
+							<abbr>Aas<!-- add the code for the person, same as xml:ID --></abbr>
+						</persName>
+						<age atLeast="70" n=""><!-- give the estimated minimum age of a person or known age--></age>
+						<education><!-- what education has this person received?--></education>
+						<langKnowledge>
+							<langKnown tag="ars">Najdi colloquial</langKnown>
+						</langKnowledge>
+						<occupation>ʕaskari, retired</occupation>
+						<residence type="former"><!-- add a former place of residence --></residence>
+						<residence type="current">aṯ-Ṯimad</residence>
+						<birth>
+							<date when="1111"/>
+							<location><!-- add location of birth --></location>
+						</birth>
+					</person>
+				</listPerson>
+			</particDesc>
+			<settingDesc>
+<place type="geo" xml:id="thimad">
+               <placeName>Al Thamad</placeName>
+               <location>
+                  <geo decls="#dd">25.543496732274978 39.332448780818545</geo>
+                  <geo decls="#dms">25°32'36.5886"N 39°19'56.8158"E</geo>
+                  <country key="SA">Saudi Arabia</country>
+               </location>
+               <idno type="geoNames"><!--if found on geonames.org, provide idno. @Charly: what if coordinates are only on Goolge maps?--></idno>
+            </place>
+				<setting ana="xxxx">participant observation</setting>
+            <!--make list of settings-->
+			</settingDesc>
+		</profileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application ident="xml:exmaralda" version="1.6">
+					<label>EXMARaLDA Partitur Editor</label>
+				</application>
+				<application version="1.17" ident="xml:enricher">
+					<label>TEI Enricher</label>
+				</application>
+			</appInfo>
+			<transcriptionDesc ident="HIAT" version="2004">
+				<desc>WIBARAB modified DMG Transcription system</desc>
+			</transcriptionDesc>
+		</encodingDesc>
+		<revisionDesc>
+			<change when="2022-07-25T16:14:10.145+02:00">Created by XSL transformation from an EXMARaLDA basic transcription</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Some text here.</p>
+		</body>
+	</text>
 </TEI>
